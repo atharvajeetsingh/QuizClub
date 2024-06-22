@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.showcase {
+  background-image: url(../static/images/QCDPSRKP\ \ SHOWCASE.png);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase-p1 {
+  font-size: 4em;
+  color: white;
+}
+.showcase-p2 {
+  font-size: 2.5em;
+  color: white;
+}
+.showcase-button {
+  background-color: white;
+  margin-top: 5%;
+  color: #36b34d;
+  font-size: 150%;
+  width: 10%;
+  height: 10%;
+  border-radius: 5px;
+  border: none;
+}
+.showcase-button:hover {
+  cursor: pointer;
+}
+.sponsors {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsors p {
+  font-size: 4em;
+  font-family: "Poppins";
+  color: #36b34d;
+}
+.sponsors img {
+  display: inline-block;
+  width: 24vw;
+}
+.gifters {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gifters p {
+  font-size: 4em;
+  font-family: "Poppins";
+  color: #36b34d;
+}
+.row1 {
+  display: flex;
+}
+.row2 {
+  display: flex;
+}
+.row1 img,
+.row2 img {
+  width: 20em;
+}
+/* Mobile Devices
+@media only screen and (max-width: 480px) {
+  .Grid {
+  }
+}
+
+/* Low resolution Tablets and iPads */
+/* @media only screen and (min-width: 481px) and (max-width: 767px) {
+  .Grid {
+  }
+} */
