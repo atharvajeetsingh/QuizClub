@@ -11,7 +11,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 nav img {
@@ -26,13 +26,20 @@ nav img {
   list-style: none;
   align-items: center;
   width: 50%;
+  column-gap: 10%;
   display: flex;
   justify-content: end;
-  column-gap: 20%;
 }
 .Link1 {
-  color: #808483;
+  color: #36b34d;
+  padding: 0.5em;
+  font-size: 1.1em;
   text-decoration: none;
+  background-color: white;
+  border: none;
+}
+.Link1:hover {
+  cursor: pointer;
 }
 .Link2 {
   color: white;
@@ -46,4 +53,53 @@ nav img {
 }
 .Link2:hover {
   cursor: pointer;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 585px) {
+  nav {
+    height: auto;
+  }
+  .flexbox {
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    row-gap: 20px;
+  }
+  .flexbox img {
+    width: 25%;
+  }
+  .Links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0;
+    justify-content: center;
+  }
+  .Link1,
+  .Link2 {
+    border-radius: 0;
+    padding: 0;
+    font-size: 0.8em;
+    width: 100%;
+    border: solid 2px #36b34d;
+    box-shadow: none;
+    height: 4vh;
+  }
+}
+
+/* Low resolution Tablets and iPads */
+@media only screen and (min-width: 586px) and (max-width: 767px) {
+  nav {
+    height: 20vh;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 980px) {
+  nav {
+    height: 20vh;
+  }
 }

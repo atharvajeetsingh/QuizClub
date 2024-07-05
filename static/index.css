@@ -27,8 +27,8 @@
   margin-top: 5%;
   color: #36b34d;
   font-size: 150%;
-  width: 10%;
-  height: 10%;
+  width: 20%;
+  height: 15%;
   border-radius: 5px;
   border: none;
 }
@@ -72,14 +72,49 @@
 .row2 img {
   width: 20em;
 }
-/* Mobile Devices
-@media only screen and (max-width: 480px) {
-  .Grid {
+/* Mobile Devices*/
+@media only screen and (max-width: 550px) {
+  .showcase {
+    height: 20vh;
+    font-size: 40%;
+  }
+  .showcase-button {
+    height: 15%;
+    width: 15%;
+  }
+  .sponsors p {
+    font-size: 2em;
+  }
+  .gifters p {
+    font-size: 2em;
+  }
+  .row1 img,
+  .row2 img {
+    width: 8em;
   }
 }
 
 /* Low resolution Tablets and iPads */
-/* @media only screen and (min-width: 481px) and (max-width: 767px) {
-  .Grid {
+@media only screen and (min-width: 551px) and (max-width: 960px) {
+  .showcase {
+    height: 35vh;
+    font-size: 60%;
   }
-} */
+  .showcase-button {
+    height: 15%;
+    width: 15%;
+  }
+  .sponsors img {
+    width: 24vw;
+  }
+  .sponsors p {
+    font-size: 3em;
+  }
+  .gifters p {
+    font-size: 3em;
+  }
+  .row1 img,
+  .row2 img {
+    width: 10em;
+  }
+}
