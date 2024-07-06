@@ -64,23 +64,34 @@
 }
 .row1 {
   display: flex;
+  height: 15vh;
+  align-items: center;
 }
 .row2 {
   display: flex;
+  height: 15vh;
+  align-items: center;
+  column-gap: 10px;
 }
 .row1 img,
 .row2 img {
-  width: 20em;
+  width: 14em;
 }
 .aboutus-heading {
   font-size: 4em;
   font-family: "Poppins";
   color: #36b34d;
 }
+.aboutus-para {
+  font-size: 2em;
+  margin: 20px 0 0 0;
+  font-family: "poppins";
+}
 .flex-container {
   margin: auto;
   width: 90%;
   display: flex;
+  align-items: center;
 }
 .flex-container img {
   width: 30vw;
@@ -102,6 +113,10 @@
   .gifters p {
     font-size: 2em;
   }
+  .row1,
+  .row2 {
+    height: 10vh;
+  }
   .row1 img,
   .row2 img {
     width: 8em;
@@ -109,8 +124,13 @@
   .flex-container img {
     display: none;
   }
+  .aboutus-heading {
+    font-size: 2em;
+  }
+  .aboutus-para {
+    font-size: 1em;
+  }
 }
-
 /* Low resolution Tablets and iPads */
 @media only screen and (min-width: 551px) and (max-width: 960px) {
   .showcase {
@@ -130,8 +150,21 @@
   .gifters p {
     font-size: 3em;
   }
+  .row1,
+  .row2 {
+    height: 10vh;
+  }
   .row1 img,
   .row2 img {
     width: 10em;
+  }
+  .aboutus-heading {
+    font-size: 3em;
+  }
+  .aboutus-para {
+    font-size: 1em;
+  }
+  .flex-container img {
+    width: 25vw;
   }
 }
