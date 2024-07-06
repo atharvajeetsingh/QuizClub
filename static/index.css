@@ -72,6 +72,20 @@
 .row2 img {
   width: 20em;
 }
+.aboutus-heading {
+  font-size: 4em;
+  font-family: "Poppins";
+  color: #36b34d;
+}
+.flex-container {
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+.flex-container img {
+  width: 30vw;
+}
+
 /* Mobile Devices*/
 @media only screen and (max-width: 550px) {
   .showcase {
@@ -91,6 +105,9 @@
   .row1 img,
   .row2 img {
     width: 8em;
+  }
+  .flex-container img {
+    display: none;
   }
 }
 
