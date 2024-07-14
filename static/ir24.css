@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.somediv {
+  width: 90%;
+  margin: auto;
+}
+.somediv p {
+  font-size: 4em;
+  font-family: "Poppins";
+  color: #36b34d;
+}
+.gallery1,
+.gallery2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  row-gap: 2vh;
+}
+.gallery1 img,
+.gallery2 img {
+  height: 25vh;
+  border-radius: 17px;
+}
