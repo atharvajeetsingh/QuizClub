@@ -49,6 +49,7 @@
 .sponsors img {
   display: inline-block;
   width: 24vw;
+  border-radius: 20px;
 }
 .gifters {
   margin-top: 4%;
@@ -76,6 +77,10 @@
 .row1 img,
 .row2 img {
   width: 14em;
+}
+
+.taxcity {
+  height: 25vh;
 }
 .aboutus-heading {
   font-size: 4em;
